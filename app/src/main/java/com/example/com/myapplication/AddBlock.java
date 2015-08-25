@@ -26,6 +26,9 @@ public class AddBlock extends Activity {
                 Intent intent = new Intent();
                 intent.putExtra("name",name);
                 intent.putExtra("number",num);
+
+
+
                 setResult(RESULT_OK,intent);
                 finish();
             }
